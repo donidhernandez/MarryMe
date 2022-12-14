@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F23540FE2947D41F0071D9C9 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23540FD2947D41F0071D9C9 /* SplashScreenView.swift */; };
+		F23541062947E8CB0071D9C9 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23541052947E8CB0071D9C9 /* SplashScreenView.swift */; };
+		F235410E2947EB6F0071D9C9 /* Hello Sweets.otf in Resources */ = {isa = PBXBuildFile; fileRef = F235410D2947EB6E0071D9C9 /* Hello Sweets.otf */; };
 		F24E183B294640A400455AAC /* MarryMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24E183A294640A400455AAC /* MarryMeApp.swift */; };
 		F24E183D294640A400455AAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24E183C294640A400455AAC /* ContentView.swift */; };
 		F24E183F294640A600455AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24E183E294640A600455AAC /* Assets.xcassets */; };
 		F24E1842294640A600455AAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24E1841294640A600455AAC /* Preview Assets.xcassets */; };
+		F28D663729493A8900C52A8D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D663629493A8900C52A8D /* OnboardingView.swift */; };
+		F2BFAD41294A879A00B1FD45 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFAD40294A879A00B1FD45 /* HomeView.swift */; };
+		F2BFAD44294A8BD600B1FD45 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFAD43294A8BD600B1FD45 /* CircleGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F23540FD2947D41F0071D9C9 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		F23541052947E8CB0071D9C9 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		F235410D2947EB6E0071D9C9 /* Hello Sweets.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hello Sweets.otf"; sourceTree = "<group>"; };
 		F24E1837294640A400455AAC /* MarryMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarryMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24E183A294640A400455AAC /* MarryMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarryMeApp.swift; sourceTree = "<group>"; };
 		F24E183C294640A400455AAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F24E183E294640A600455AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F24E1841294640A600455AAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F28D663629493A8900C52A8D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F2BFAD40294A879A00B1FD45 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F2BFAD43294A8BD600B1FD45 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +42,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F23541072947E9BA0071D9C9 /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				F235410A2947EA200071D9C9 /* Font */,
+			);
+			path = CustomFonts;
+			sourceTree = "<group>";
+		};
+		F235410A2947EA200071D9C9 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F235410D2947EB6E0071D9C9 /* Hello Sweets.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		F24E182E294640A400455AAC = {
 			isa = PBXGroup;
 			children = (
@@ -53,10 +77,11 @@
 		F24E1839294640A400455AAC /* MarryMe */ = {
 			isa = PBXGroup;
 			children = (
+				F2BFAD42294A8BA800B1FD45 /* Scenes */,
+				F23541072947E9BA0071D9C9 /* CustomFonts */,
 				F24E184B2946416500455AAC /* Sounds */,
 				F24E184A2946415100455AAC /* Utilities */,
 				F24E18492946414700455AAC /* Views */,
-				F24E18482946413800455AAC /* Screens */,
 				F24E183A294640A400455AAC /* MarryMeApp.swift */,
 				F24E183E294640A600455AAC /* Assets.xcassets */,
 				F24E1840294640A600455AAC /* Preview Content */,
@@ -72,18 +97,10 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F24E18482946413800455AAC /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-				F23540FD2947D41F0071D9C9 /* SplashScreenView.swift */,
-			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
 		F24E18492946414700455AAC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F24E183C294640A400455AAC /* ContentView.swift */,
+				F2BFAD43294A8BD600B1FD45 /* CircleGroupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -100,6 +117,17 @@
 			children = (
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		F2BFAD42294A8BA800B1FD45 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F23541052947E8CB0071D9C9 /* SplashScreenView.swift */,
+				F24E183C294640A400455AAC /* ContentView.swift */,
+				F28D663629493A8900C52A8D /* OnboardingView.swift */,
+				F2BFAD40294A879A00B1FD45 /* HomeView.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F24E1842294640A600455AAC /* Preview Assets.xcassets in Resources */,
+				F235410E2947EB6F0071D9C9 /* Hello Sweets.otf in Resources */,
 				F24E183F294640A600455AAC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,9 +201,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F23541062947E8CB0071D9C9 /* SplashScreenView.swift in Sources */,
+				F28D663729493A8900C52A8D /* OnboardingView.swift in Sources */,
+				F2BFAD41294A879A00B1FD45 /* HomeView.swift in Sources */,
 				F24E183D294640A400455AAC /* ContentView.swift in Sources */,
+				F2BFAD44294A8BD600B1FD45 /* CircleGroupView.swift in Sources */,
 				F24E183B294640A400455AAC /* MarryMeApp.swift in Sources */,
-				F23540FE2947D41F0071D9C9 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,17 +332,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MarryMe/Preview Content\"";
 				DEVELOPMENT_TEAM = 2K78V2KXMZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarryMe/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Marry Me";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,17 +368,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MarryMe/Preview Content\"";
 				DEVELOPMENT_TEAM = 2K78V2KXMZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarryMe/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Marry Me";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
