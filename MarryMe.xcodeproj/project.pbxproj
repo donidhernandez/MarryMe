@@ -63,6 +63,7 @@
 		F24E182E294640A400455AAC = {
 			isa = PBXGroup;
 			children = (
+				F22619DC294C12B600489A0E /* README.md */,
 				F24E1839294640A400455AAC /* MarryMe */,
 				F24E1838294640A400455AAC /* Products */,
 			);
@@ -87,7 +88,6 @@
 				F24E183A294640A400455AAC /* MarryMeApp.swift */,
 				F24E183E294640A600455AAC /* Assets.xcassets */,
 				F24E1840294640A600455AAC /* Preview Content */,
-				F22619DC294C12B600489A0E /* README.md */,
 			);
 			path = MarryMe;
 			sourceTree = "<group>";
